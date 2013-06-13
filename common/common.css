@@ -1,0 +1,500 @@
+html, body {
+	font-family: ColabLig, Arial;
+	padding: 0;
+	margin: 0;
+	background-color: #F0EBE2;
+	color: #3c3b37;
+	height: 100%;
+}
+
+header {
+	z-index: 1;
+	height: 28px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	background-image: linear-gradient(bottom, #303030 0%, #525252 100%);
+	background-image: -o-linear-gradient(bottom, #303030 0%, #525252 100%);
+	background-image: -webkit-linear-gradient(bottom, #303030 0%, #525252 100%);
+	background-image: -ms-linear-gradient(bottom, #303030 0%, #525252 100%);
+	background-image: -moz-linear-gradient(bottom, #303030 0%, #525252 100%);
+	box-shadow: 0px 0px 10px #303030;
+	color: #F0EBE2;
+	font-size: 14px;
+}
+
+#item1, #item2, #item3, #item4, #item5, #item6, #item7 {
+	margin: 1px;
+	padding: 4px;
+	float: left;
+	height: 16px;
+	cursor: default;
+	display: block;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-align: center;
+}
+
+/* Le style des menus... */
+
+#pop1:hover .msg p {
+	visibility: visible;
+}
+
+#pop1:hover span {
+	background-image: -o-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -moz-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -webkit-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -ms-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #AB4200),
+		color-stop(1, #E45700)
+	);
+}
+
+#pop2:hover span {
+	background-image: -o-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -moz-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -webkit-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -ms-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #AB4200),
+		color-stop(1, #E45700)
+	);
+}
+
+#pop2:hover #css {
+	visibility: visible;
+}
+
+#pop2 #css {
+	visibility: hidden;
+}
+
+#pop2 #css p {
+	padding: 5px;
+	line-height: 18px;
+	text-align: center;
+	background-color: #3c3b37;
+	font-size: 14px;
+	position: absolute;
+	top: 14px;
+	width: 110px;
+	height: 56px;
+}
+
+#item1 {
+	width: 80px;
+}
+
+#item2 {
+	width: 50px;
+}
+
+#msg1 {
+	z-index: 1;
+	position: absolute;
+	left: 1px;
+}
+
+#msg2 {
+	z-index: 1;
+	position: absolute;
+	left: 93px;
+}
+
+#msg3 {
+	z-index: 1;
+	position: absolute;
+	right: 202px;
+}
+
+#msg4 {
+	z-index: 1;
+	position: absolute;
+	right: 202px;
+}
+
+#msg5 {
+	z-index: 1;
+	position: absolute;
+	right: 202px;
+}
+
+#msg6 {
+	z-index: 1;
+	position: absolute;
+	right: 202px;
+}
+
+#msg7 {
+	z-index: 1;
+	position: absolute;
+	right: 202px;
+}
+
+#css {
+	z-index: 1;
+	position: absolute;
+	left: 72px;
+}
+
+.msg p {
+	border: 1px solid #333;
+	box-shadow:inset 0 0 1px #555, 0px 0px 12px #3c3b37;
+	background-color: #3c3b37;
+	font-size: 14px;
+	position: absolute;
+	top: 14px;
+}
+
+.msg p a {
+	color: #F0EBE2;
+	height: 22px;
+	display: block;
+	padding: 6px 0px 0px 0px;
+	text-decoration: none;
+	cursor: default;
+}
+
+.msg p a img {
+	border: none;
+	padding: 0px 5px 0px 5px;
+	vertical-align: middle;
+}
+
+.msg p a:hover {
+	background-image: linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -o-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -moz-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -webkit-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+	background-image: -ms-linear-gradient(bottom, #AB4200 0%, #E45700 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #AB4200),
+		color-stop(1, #E45700)
+	);
+}
+
+.head-pas-lien {
+	color: black;
+	text-shadow: 0px 0px 3px #BBBBBB;
+	height: 22px;
+	display: block;
+	padding: 6px 0px 0px 0px;
+	text-decoration: none;
+	cursor: default;
+}
+
+.head-pas-lien img {
+	border: none;
+	padding: 0px 5px 0px 5px;
+	vertical-align: middle;
+	opacity: 0.5;
+}
+
+.bloc_dons {
+	width: 150px;
+	background: #777777; 
+	z-index: 1;
+	position: absolute;
+	left: 170px;
+	height: 20px;
+	margin: 4px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 1px black;
+}
+
+.pourcent_dons {
+	background: #ED7600; 
+	z-index: 1;
+	text-align: center;
+	height: 20px;
+	border-radius: 10px;
+	box-shadow:inset 0 0 10px #FFC76D;
+}
+
+.texte_dons {
+	width: 150px;
+	z-index: 1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	line-height: 18px;
+}
+
+#msg1 p  {
+	width: 160px;
+}
+
+#msg2 p  {
+	width: 110px;
+}
+
+#msg3 p  {
+	width: 200px;
+}
+
+#msg4 p  {
+	width: 200px;
+}
+
+#msg5 p  {
+	width: 200px;
+}
+
+#msg6 p  {
+	width: 200px;
+}
+
+#msg7 p  {
+	width: 200px;
+	height: 200px;
+}
+
+.panel {
+	float: right;
+}
+
+.panel-icons {
+	margin: -3px 0px -3px 0px;
+}
+
+.panel div {
+	display: inline;
+}
+
+#clock {
+	margin: 0 10px 10px 10px;
+}
+
+.username {
+	position: absolute;
+	top: 4px;
+	left: 50%;
+	font-style: italic;
+	color: black;
+	text-shadow: 1px 1px 3px white;
+}
+
+/* le style des fenetres */
+
+#about {
+	width: 310px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	margin: -276px 0 0 -155px;
+}
+
+#about .title {
+	display: block;
+	height: 42px;
+	font-size: 14px;
+	padding: 22px 20px 0px 30px;
+	background: url('images/head.png')top center no-repeat;
+	color: #DFD5C3;
+	font-weight: bold;
+}
+
+#about .contenu {
+	text-align: center;
+	margin-top: -36px;
+	font-size: 14px;
+	padding: 0px 30px 0px 30px;
+	background: url('images/middle.png')top center repeat-y;
+}
+
+#about .contenu b {
+	font-size: 24px;
+}
+
+#about .bottom {
+	margin-top: -14px;
+	height: 22px;
+	padding: 0px 20px 0px 30px;
+	background: url('images/bottom.png')top center no-repeat;
+}
+
+#credit {
+	width: 310px;
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	left: 50%;
+	margin: -210px 0 0 -155px;
+}
+
+#credit .title {
+	display: block;
+	height: 42px;
+	font-size: 14px;
+	padding: 22px 20px 0px 30px;
+	background: url('images/head.png')top center no-repeat;
+	color: #DFD5C3;
+	font-weight: bold;
+}
+
+#credit .contenu {
+	text-align: left;
+	margin-top: -36px;
+	font-size: 14px;
+	padding: 0px 30px 0px 30px;
+	background: url('images/middle.png')top center repeat-y;
+}
+
+#credit .contenu .readonly {
+	display: block;
+	white-space: nowrap;
+	overflow: auto;
+	max-width: 240px;
+	height: 250px;
+	border: 1px #BEB09C solid;
+	padding: 4px;
+}
+
+#credit .bottom {
+	margin-top: -14px;
+	height: 22px;
+	padding: 0px 20px 0px 30px;
+	background: url('images/bottom.png')top center no-repeat;
+}
+
+/* La gestion de l'espace de gauche */
+
+#gauche {
+	position:absolute;
+	top:28px;
+	bottom:15px;
+	left:0;
+	width: 15%;
+	float: left;
+	border: 1px solid #CCBFA9;
+	border-left: none !important;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 12px;
+	margin-right: 5px;
+	z-index: 0;
+}
+
+#gauche:hover {
+	overflow: auto;
+}
+
+#gauche ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gauche ul li a {
+	width: 203px;
+	display: block;
+	line-height: 22px;
+	padding-left: 3px;
+}
+
+#gauche ul li ul li a {
+	width: 181px;
+	display: block;
+	line-height: 22px;
+	padding-left: 25px;
+}
+
+#gauche_selected {
+	background: #c8bba9;
+}
+
+#gauche hr {
+	margin: 5px 0 0 20px;
+	background: #A18C60;
+	width: 150px;
+	border: none;
+	height: 1px;
+}
+
+/* Gestion du pied de page */
+
+#bottom {
+	font-size: 12px;
+	height: 15px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Gestion du contenu */
+
+#corps {
+	position:absolute;
+	top:28px;
+	left:15%;
+	right:0;
+	bottom:15px;
+	border: 1px solid #CCBFA9;
+	border-right: none !important;
+	background-color: white;
+	overflow: auto;
+	padding: 0px;
+}
+
+/* Gestion de la navigation */
+
+a img {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav {
+	background-color: #F0EBE2;
+	height: 40px;
+}
+
+#nav form {
+	margin: 5px;
+}
+
+#nav p {
+	padding: 6px;
+	margin: 0;
+}
+
+#nav p a:hover img {
+	opacity: 0.7;
+}
+
+.search {
+	display: block;
+	float: right;
+	padding-top: 2px;
+}
+
+@font-face {
+    font-family: 'ColabThi';
+    src: url('./fonts/ColabThi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ColabLig';
+    src: url('./fonts/ColabLig.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

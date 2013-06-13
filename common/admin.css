@@ -1,0 +1,117 @@
+/* Gestion de la page */
+
+#content {
+	padding: 20px;
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: white url('images/BackContentDot.png') top repeat-x;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#content a {
+	font-style: italic;
+	border-bottom: 1px dashed grey;
+}
+
+.screen_img {
+	border: none !important;
+}
+
+hr {
+	background: #F0EBE2;
+	height: 4px;
+	border: none;
+	clear: both;
+	margin: 0;
+}
+
+.nom {
+	font-size: 35px;
+	margin: 0;
+}
+
+.short_desc {
+	font-style: italic;
+	margin: 0 0 15px 0;
+	color: #8F7F62;
+}
+
+.titre {
+	background: #FAF8F6;
+	padding: 10px 0px 5px 10px;
+	margin: 0;
+	clear: both;
+}
+
+.tooltip {
+	background-color: #F0EBE2;
+	border: 2px solid #3C3B37;
+	padding: 10px 15px;
+	width: 250px;
+	display: none;
+	color: black;
+	font-size:14px;
+	-moz-border-radius: 5px;
+}
+
+#form {
+	margin: 50px;
+}
+
+#form input {
+	margin-bottom: 10px;
+}
+
+#form label {
+	display: block;
+	width: 180px;
+	float: left;
+}
+
+.os label {
+	display: inline !important;
+	width: auto !important;
+	float: inherit !important;
+}
+
+#log {
+	font-size: 12px;
+	font-family: 'Lucida console', Courrier;
+	line-height: 20px;
+}
+
+.erreur {
+	color: red;
+	font-weight: bold;
+}
+
+fieldset {
+	background: #FAF8F6;
+	padding: 20px;
+}
+
+#form_mdp label {
+	display: block;
+	width: 120px;
+	float: left;
+}
+
+#tests td {
+	background: #F0EBE2;
+	padding: 5px;
+	text-align: center;
+}
+
+#tests th {
+	background: #C8BBA9;
+	padding: 5px;
+	vertical-align: middle;
+}

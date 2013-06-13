@@ -1,0 +1,34 @@
+body{
+	height:100%;
+}
+#head{
+	padding:0;
+	width:100%;
+}
+#gauche{
+	height:expression(
+		(document.body.clientHeight)-
+		(document.getElementById('head').offsetHeight*1.6)
+	);
+}
+#corps{
+	width:expression(
+		(document.body.clientWidth)-
+		(document.getElementById('gauche').offsetWidth)-
+		'4'+
+		'px'
+	);
+	height:expression(
+		(document.body.clientHeight)-
+		(document.getElementById('head').offsetHeight*1.6)-
+		'4'+
+		'px'
+	);
+}
+#bottom{
+	top:expression(
+		(document.getElementById('gauche').offsetHeight)+
+		(document.getElementById('head').offsetHeight)+
+		'px'
+	);
+}

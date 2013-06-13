@@ -1,0 +1,49 @@
+/* Gestion de la page */
+
+#content {
+	padding: 20px;
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: url('images/fond.jpg') top left no-repeat white;
+	color: black;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.attention {
+	border: solid 2px #AAD2FF;
+	background: left center url('images/attention.png') no-repeat #D6E9FF;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.visite {
+	display: block;
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	clear: both;
+	font-size: 54px;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	font-weight: bold;
+	border: 10px solid #e25203 !important;
+	background: #d24a02;
+}
+
+.visite:hover {
+	background: #e26a03;
+}

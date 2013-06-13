@@ -1,0 +1,82 @@
+/* Gestion de la page */
+
+#content {
+	padding: 20px;
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: white url('images/BackContentDot.png') top repeat-x;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#content a {
+	font-style: italic;
+	border-bottom: 1px dashed grey;
+}
+
+hr {
+	background: #F0EBE2;
+	height: 4px;
+	border: none;
+	clear: both;
+	margin: 0;
+}
+
+.short_desc {
+	font-style: italic;
+	margin: 0 0 15px 0;
+	color: #8F7F62;
+}
+
+h3 {
+	background: #FAF8F6;
+	padding: 10px 0px 5px 10px;
+	margin: 0;
+	clear: both;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 0;
+}
+
+p.error {
+	color:red;
+}
+
+p.ok {
+	color:green;
+}
+
+form#contact {
+	margin:0px;
+	padding:0px;
+}
+				
+form#contact input, form#contact textarea, form#contact select {
+	margin:4px 0;
+}
+				
+form#contact textarea {
+	width:500px;
+	height:150px;
+}
+
+form#contact label {
+	width:115px;
+	padding-top:8px;
+	padding-right:4px;
+	float:left;
+	display:block;
+}
+
+form#contact .submit {
+	margin-left:114px;
+}

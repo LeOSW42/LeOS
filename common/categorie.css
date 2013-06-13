@@ -1,0 +1,85 @@
+/* Gestion de la page */
+
+#content {
+	padding: 20px;
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: white url('images/BackContentDot.png') top repeat-x;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#categorie {
+	border: 1px solid #DFDFDF;
+	border-bottom: 2px solid #DFDFDF;
+	-moz-border-radius: 5px;
+	background: #EFEFEF;
+	padding-bottom: 20px;
+}
+
+#cat_titre {
+	background: #DFDFDF;
+	font-size: 18px;
+	padding: 3px;
+}
+
+.categorie {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 130px;
+	margin: 20px;
+	height: 100px;
+}
+
+.categorie img {
+	margin-bottom: 20px;
+}
+
+#creditimage {
+	color: #B8A98F;
+	float: right;
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+hr {
+	margin-top: 20px;
+	background: #F0EBE2;
+	height: 4px;
+	border: none;
+	clear: both;
+}
+
+.liste {
+	display: block;
+	width: 100%;
+}
+
+.liste td, .liste p {
+	padding: 0;
+	margin: 0;
+}
+
+.liste:hover {
+	background: #EFEAE0;
+}
+
+.img_liste {
+	margin: 10px;
+}
+
+.nom_liste {
+	font-weight: bold;
+}
+
+.short_desc_liste {
+	font-size: 14px;
+}

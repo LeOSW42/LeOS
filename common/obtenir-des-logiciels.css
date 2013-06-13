@@ -1,0 +1,95 @@
+/* Gestion de la page */
+
+#content {
+	padding: 20px;
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: url('images/fond.jpg') top left no-repeat white;
+	color: black;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+	font-family: ColabThi, ColabLig, Arial;
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.button {
+	margin-right: 40px;
+	font-size: 14px;
+	line-height: 18px;
+	display: block;
+	float: left;
+	color: white;
+	border-radius: 2px;
+	padding: 6px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-shadow: 0 1px 0 black;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5), inset 0 0 5px rgba(255,255,255,0.5), inset 0 0 1px white, inset 0 14px 30px rgba(255,255,255,0.1);
+}
+
+.button:hover {
+		text-shadow: -1px -1px 0 black;
+
+	box-shadow: 0 0 5px rgba(0,0,0,0.3), inset 0 0 15px rgba(255,255,255,0.7), inset 0 0 1px white;
+}
+
+.buttonOrange {
+	border: 1px solid #e25203;
+	background: #d34e08 top repeat-x;
+}
+
+.buttonVert {
+	border: 1px solid #36AF38;
+	background: #308D31 top repeat-x;
+}
+
+.buttonBleu {
+	border: 1px solid #4077CF;
+	background: #3d65a9 top repeat-x;;
+}
+
+#categorie {
+	clear: both;
+	border: 1px solid #DFDFDF;
+	border-bottom: 2px solid #DFDFDF;
+	border-radius: 5px;
+	background: #EFEFEF;
+	padding-bottom: 20px;
+}
+
+#cat_titre {
+	background: #DFDFDF;
+	font-size: 18px;
+	padding: 3px;
+}
+
+.categorie {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 130px;
+	margin: 20px;
+	height: 100px;
+}
+
+.categorie img {
+	margin-bottom: 20px;
+}
+
+#creditimage {
+	color: #B8A98F;
+	float: right;
+	margin-top: 3px;
+	font-size: 12px;
+}

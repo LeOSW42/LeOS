@@ -1,0 +1,57 @@
+/* Gestion de la page */
+
+#content {
+	padding: 20px;
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: white url('images/BackContentDot.png') top repeat-x;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+hr {
+	margin: 0px;
+	background: #F0EBE2;
+	height: 4px;
+	border: none;
+	clear: both;
+}
+
+.liste {
+	display: block;
+	width: 100%;
+}
+
+.liste td, .liste p {
+	padding: 0;
+	margin: 0;
+}
+
+.liste:hover {
+	background: #EFEAE0;
+}
+
+.img_liste {
+	margin: 10px;
+}
+
+.nom_liste {
+	font-weight: bold;
+}
+
+.short_desc_liste {
+	font-size: 14px;
+}
+
+.explication {
+	margin: 2px;
+	text-align: right;
+	font-size: 12px;
+}

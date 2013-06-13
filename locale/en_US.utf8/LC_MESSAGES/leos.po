@@ -1,0 +1,311 @@
+# English translations for LeOS package.
+# This file is distributed under the same license as the LeOS package.
+# This file was translated from CodingTeam at <http://codingteam.net/>.
+msgid ""
+msgstr ""
+"Project-Id-Version: LeOS\n"
+"PO-Revision-Date: 2013-05-24 13:24-0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"Last-Translator: LéOSW <leo-serre@legtux.org>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: /home/leo/Bureau/www/LeOS/v1/categorie.php:56
+#: /home/leo/Bureau/www/LeOS/v1/categorie.php:67
+#: /home/leo/Bureau/www/LeOS/v1/categorie.php:81
+#: /home/leo/Bureau/www/LeOS/v1/categorie.php:98
+#: /home/leo/Bureau/www/LeOS/v1/categorie.php:120 /home/leo/Bureau/www/LeO
+msgid "icones-par"
+msgstr "icons by"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:27
+msgid "Logithèque LeOS"
+msgstr "LeOS Application Store"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:28
+msgid "Applications Phares"
+msgstr "Best applications"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:28
+msgid "Application Aléatoire"
+msgstr "Random application"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:28
+msgid "Dernières mises à jour"
+msgstr "Last updates"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:31
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:7
+msgid "accessoires"
+msgstr "Accessories"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:32
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:8
+msgid "acces-universel"
+msgstr "Universal access"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:33
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:9
+msgid "bureautique"
+msgstr "Office"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:34
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:10
+msgid "education"
+msgstr "Education"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:35
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:11
+msgid "graphisme"
+msgstr "Graphics"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:36
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:12
+msgid "internet"
+msgstr "Internet"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:37
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:13
+msgid "jeux"
+msgstr "Games"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:38
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:14
+msgid "polices-de-caracteres"
+msgstr "Fonts"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:39
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:15
+msgid "science-ingenierie"
+msgstr "Science &amp; engineering"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:40
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:16
+msgid "son-et-video"
+msgstr "Sound and video"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:41
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:17
+msgid "themes-optimisations"
+msgstr "Themes &amp; optimizations"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:42
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:18
+msgid "outils-pour-developpeurs"
+msgstr "Developer Tools"
+
+#: /home/leo/Bureau/www/LeOS/v1/obtenir-des-logiciels.php:43
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:19
+msgid "systeme"
+msgstr "System"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/bottom.php:10
+msgid "elements-disponibles"
+msgstr "available items"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/bottom.php:13
+msgid "mis-a-jour-le"
+msgstr "Update"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:20
+msgid "le-reseau"
+msgstr "The network"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:28
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:35
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:26
+msgid "aide"
+msgstr "Help"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:30
+msgid "veuillez-activer-javascript-pour-afficher-ce-menu"
+msgstr "Please enable JavaScript to view this menu."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:34
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:27
+msgid "contact"
+msgstr "Contact"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:36
+msgid "a-propos"
+msgstr "About ..."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:43
+msgid "de-dons"
+msgstr "of donations"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:79
+msgid "lire-mes-messages"
+msgstr "Read my messages"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:80
+msgid "ecrire-un-message"
+msgstr "Write a message"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:81
+msgid "nouveau-x-message-s-"
+msgstr "new message(s)"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:90
+msgid "se-deconnecter"
+msgstr "Log out"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:91
+msgid "editer-le-profil"
+msgstr "Edit profile"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:93
+msgid "se-connecter"
+msgstr "Log in"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:94
+msgid "s-inscrire"
+msgstr "Sign in"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:103
+msgid "anonyme"
+msgstr "Anonymous"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:109
+msgid "a-propos-d-oss-website"
+msgstr "About OSS Website ..."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:112
+msgid ""
+"opensourcesoft-website-est-l-encyclopedie-des-logiciels-libres-sur-le-web"
+msgstr ""
+"OpenSourceSoft website is the encyclopedia of open-source software on the "
+"web."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:114
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:119
+msgid "credits"
+msgstr "Credits"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:114
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:135
+msgid "fermer"
+msgstr "Close"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:120
+msgid "nous-remercions"
+msgstr "We thank:"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:121
+msgid "developpeurs"
+msgstr "Developer:"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:122
+msgid "developpement-graphisme-moderation"
+msgstr "Development, Design, Moderation ..."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:123
+msgid "developpement-de-dieu"
+msgstr "Development of god!"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:124
+msgid "mise-en-page-sans-javascript-sans-tableaux-et-sans-frame"
+msgstr "Layout without JavaScript, without tables and without frame ..."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:125
+msgid "graphistes"
+msgstr "Designers:"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:126
+msgid "creatrice-du-magnifique-logo-d-oss"
+msgstr "Creator of beautiful OSS logo ..."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:127
+msgid "moderateurs"
+msgstr "Moderators:"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:129
+msgid "contributions-diverses"
+msgstr "Other contributions:"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:130
+msgid "fond-de-la-page-d-accueil-honteusement-trouve-ici"
+msgstr "Background of the homepage shamefully found here"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:131
+msgid "l-horloge"
+msgstr "The clock"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:132
+msgid "tous-les-icones-de-la-suite-faenza-places-sous-gnu-gpl"
+msgstr "All Faenza icons  under GNU GPL license ..."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:133
+msgid "tous-les-icones-de-la-suite-humanity-places-sous-gnu-gpl-v2"
+msgstr "All Humanity icons  under GNU GPL v2 license ..."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/header.php:134
+msgid "icones-aide-et-a-propos"
+msgstr "Icons \"Help \" and \"About ...\"."
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:5
+msgid "obtenir-des-logiciels"
+msgstr "Get software"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:22
+msgid "telecharger-un-logiciel"
+msgstr "Download software"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:24
+msgid "divers"
+msgstr "Miscellaneous"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:33
+msgid "partenaires"
+msgstr "Partners"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:34
+msgid "webmaster"
+msgstr "Webmaster"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:35
+msgid "centre-de-developpement"
+msgstr "Development centre"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:38
+msgid "administration"
+msgstr "Administration"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:40
+msgid "ajout-d-un-logiciel"
+msgstr "Adding software"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:41
+msgid "modification-d-un-logiciel"
+msgstr "Editing software"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:42
+msgid "suppression-d-un-logiciel"
+msgstr "Removing software"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:43
+msgid "ajout-d-un-telechargement"
+msgstr "Adding a download"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:44
+msgid "modification-d-un-telechargement"
+msgstr "Editing a download"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:45
+msgid "suppression-d-un-telechargement"
+msgstr "Deleting a download"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/gauche.php:46
+msgid "voir-les-logs"
+msgstr "View logs"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/nav.php:2
+msgid "rechercher"
+msgstr "Search"
+
+#: /home/leo/Bureau/www/LeOS/v1/common/nav.php:2
+msgid "ok"
+msgstr "Ok"

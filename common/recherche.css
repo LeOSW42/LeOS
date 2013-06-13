@@ -1,0 +1,57 @@
+/* Gestion de la page */
+
+#content {
+	padding: 20px;
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: white url('images/BackContentDot.png') top repeat-x;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#content a {
+	font-style: italic;
+	border-bottom: 1px dashed grey;
+}
+
+hr {
+	background: #F0EBE2;
+	height: 1px;
+	border: none;
+	width: 75%;
+	clear: both;
+	margin: 0;
+}
+
+.short_desc {
+	font-style: italic;
+	margin: 0 0 15px 0;
+	color: #8F7F62;
+}
+
+h3 {
+	background: #FAF8F6;
+	padding: 10px 0px 5px 10px;
+	margin: 0;
+	clear: both;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 0;
+}
+
+.descrecherche {
+	font-size: 12px;
+}
+
+.descrecherche i {
+	color: #8F7F62;
+}

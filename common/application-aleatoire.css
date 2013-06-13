@@ -1,0 +1,92 @@
+/* Gestion de la page */
+
+#content {
+	padding: 20px;
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: white url('images/BackContentDot.png') top repeat-x;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#content a {
+	font-style: italic;
+	border-bottom: 1px dashed grey;
+}
+
+.screen_img {
+	border: none !important;
+}
+
+.screen_img img {
+	max-width: 120px !important;
+}
+
+hr {
+	background: #F0EBE2;
+	height: 4px;
+	border: none;
+	clear: both;
+	margin: 0;
+}
+
+.nom {
+	font-size: 35px;
+	margin: 0;
+}
+
+.short_desc {
+	font-style: italic;
+	margin: 0 0 15px 0;
+	color: #8F7F62;
+}
+
+.titre {
+	background: #FAF8F6;
+	padding: 10px 0px 5px 10px;
+	margin: 0;
+	clear: both;
+}
+
+.screen {
+	vertical-align: middle;
+	padding: 10px;
+	margin-top: 30px;
+	float: right;
+	background-color: #FAF8F6;
+	border: 1px solid #F0EBE2;
+}
+
+.button {
+	margin-right: 40px;
+	font-size: 14px;
+	line-height: 18px;
+	color: white;
+	-moz-border-radius: 2px;
+	padding: 6px;
+	font-weight: bold;
+	font-style: normal !important;
+}
+
+.buttonOrange {
+	border: 3px solid #e25203 !important;
+	background: white url('images/BackButtonOrange.png') top repeat-x;
+}
+
+code {
+	border-left: 4px solid black;
+	background-color: #3F2E10;
+	color: #EFE4D1;
+	font-weight: bold;
+	padding: 5px;
+	line-height: 22px;
+	white-space: pre;
+	overflow: auto;
+}
